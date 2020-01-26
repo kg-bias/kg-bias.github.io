@@ -23,18 +23,17 @@
             
       <div class="container">
           <div class="wrapper">
-          
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-        </div>
-        {{ content }}
+          <section>
+            <div id="title">
+              <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              <p>{{ site.description | default: site.github.project_tagline }}</p>
+              <hr>
+            </div>
+            {{ content }}
       </section>
               
           </div>
-      </div><!-- /.container -->
+      </div>
       <footer>
           <ul>
               <li><a href="mailto:edgar.meij@gmail.com">email</a></li>
