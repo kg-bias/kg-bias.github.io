@@ -18,15 +18,19 @@ Topics of interest include, but are not limited to:
 
 Submission files should not exceed 8 pages with additional pages allowed for references. Reviews are double-blind; author names and affiliations must be removed. All submissions must be written in English and submitted as PDF files formatted using the sigconf template: https://www.acm.org/publications/proceedings-template.
 
-Submissions should be made electronically through Easychair
+Submissions should be made electronically through Easychair.
 
 ### Important Dates
-
-UC Irvine, USA – Wed June 24, 2020
-
-### Invited Speakers
-
+* Apr 27 - KG-BIAS submission deadline
+* May 11 – KG-BIAS notification
+* Jun 22-23 – AKBC conference @ UC Irvine, USA
+* Jun 24 – KG-BIAS workshop @ UC Irvine, USA
 
 ### Organizing committee
-
+* Edgar Meij, Bloomberg
+* Tara Safavi, University of Michigan
+* Chenyan Xiong, Microsoft Research AI
+* Miriam Redi, Wikimedia Foundation
+* Gianluca Demartini, University of Queensland
+* Fatma Özcan, IBM Research
 
