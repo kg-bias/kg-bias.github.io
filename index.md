@@ -34,3 +34,4 @@ Submissions should be made electronically through Easychair.
 * Gianluca Demartini, University of Queensland
 * Fatma Özcan, IBM Research
 
+Contact us at this <a href="mailto:kgbiasworkshop@gmail.com">email</a> address.
