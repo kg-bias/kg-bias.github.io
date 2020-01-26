@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-**************************************************************
-KG-BIAS 2020 – Bias in Automatic Knowledge Graph Construction:
-A Workshop at AKBC 2020
-UC Irvine, USA – Wed June 24, 2020
-https://kg-bias.github.io/
-**************************************************************
 
 ### Overview
 Knowledge Graphs (KGs) store human knowledge about the world in structured format, e.g., triples of facts or graphs of entities and relations, to be processed by AI systems. In the past decade, extensive research efforts have gone into constructing and utilizing knowledge graphs for tasks in natural language processing, information retrieval, recommender systems, and more. Once constructed, knowledge graphs are often considered as “gold standard” data sources that safeguard the correctness of other systems. Because the biases inherent to KGs may become magnified and spread through such systems, it is crucial that we acknowledge and address various types of bias in knowledge graph construction. 
@@ -28,9 +22,11 @@ Submissions should be made electronically through Easychair
 
 ### Important Dates
 
+UC Irvine, USA – Wed June 24, 2020
 
 ### Invited Speakers
 
 
 ### Organizing committee
+
 
