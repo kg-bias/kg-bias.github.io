@@ -10,6 +10,8 @@ Causes of bias include systematic errors due to selecting non-random items (sele
 
 This workshop – to be held for the first time at AKBC 2020 – addresses the questions: “how do such biases originate?”, “How do we identify them?”, and “What is the appropriate way to handle them, if at all?”.  This topic is as-yet unexplored and we hope that our workshop will start a meaningful, long-lasting dialogue spanning researchers across a wide variety of backgrounds and communities. 
 
+### Topics
+
 Topics of interest include, but are not limited to:
 * Ethics, bias, and fairness
 * Qualitatively and quantitatively defining types of bias
