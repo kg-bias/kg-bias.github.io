@@ -36,7 +36,7 @@ Topics of interest include, but are not limited to:
 
 Submission files should not exceed 8 pages with additional pages allowed for references. Reviews are double-blind; author names and affiliations must be removed. All submissions must be written in English and submitted as PDF files formatted using the sigconf template: https://www.acm.org/publications/proceedings-template.
 
-Submissions should be made electronically through Easychair.
+Submissions should be made electronically through https://easychair.org/conferences/?conf=kgbias2020.
 
 ### Important Dates
 * Apr 27 - KG-BIAS submission deadline
