@@ -12,7 +12,23 @@ This workshop – to be held for the first time at AKBC 2020 – addresses the q
 
 Topics of interest include, but are not limited to:
 * Ethics, bias, and fairness
-* Knowledge Base Population
+* Qualitatively and quantitatively defining types of bias
+  * Implicit or explicit human bias reflected in data they generate
+  * Algorithmic bias represented in learned models or rules
+  * Taxonomies and categorizations of different biases
+* Empirically observing biases
+  * Measuring diversity of opinions
+  * Language, gender, geography, or interest bias
+  * Implications of existing bias to human end-users
+  * Benchmarks and datasets for bias in KGs
+* Measuring or remediating bias
+  * KG completion methods
+  * Algorithms for making inferences interpretable and explainable
+  * De-biasing or post-processing algorithms 
+  * Creating user awareness on cognitive biases
+  * Ethics of data collection for bias management
+  * Diversification of information sources
+  * Provenance and traceability
 
 ### Submission Instructions
 
