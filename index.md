@@ -38,11 +38,18 @@ Submission files should not exceed 8 pages with additional pages allowed for ref
 
 Submissions should be made electronically through <a href="https://easychair.org/conferences/?conf=kgbias2020">Easychair</a>.
 
+### Workshop format
+
+We accept position papers, short papers, and full papers. Both ongoing and already published work is welcomed, and we will offer authors the option of having their paper included in the workshop proceedings. More details regarding the actual format and schedule of the workshop will be announced closer to the workshop date.
+
 ### Important Dates
 * Apr 27 - KG-BIAS submission deadline
-* May 11 – KG-BIAS notification
+* May 18 – KG-BIAS notification
 * Jun 22-23 – AKBC conference @ UC Irvine, USA
 * Jun 24 – KG-BIAS workshop @ UC Irvine, USA
+
+### Code of Conduct
+Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.
 
 ### Organizing committee
 * Edgar Meij, Bloomberg
@@ -52,4 +59,4 @@ Submissions should be made electronically through <a href="https://easychair.org
 * Gianluca Demartini, University of Queensland
 * Fatma Özcan, IBM Research
 
-Contact us at this <a href="mailto:kg-bias@googlegroups.com">email</a> address.
+You can find us at <a href="https://kg-bias.github.io/">https://kg-bias.github.io</a> and contact us at <a href="mailto:kg-bias@googlegroups.com">kg-bias@googlegroups.com</a>.
