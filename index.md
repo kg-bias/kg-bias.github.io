@@ -45,9 +45,6 @@ We accept position papers, short papers, and full papers. Both ongoing and alrea
 * Jun 22-23 – AKBC conference @ UC Irvine, USA
 * Jun 24 – KG-BIAS workshop @ UC Irvine, USA
 
-### Code of Conduct
-Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.
-
 ### Organizing committee
 * Edgar Meij, Bloomberg
 * Tara Safavi, University of Michigan
@@ -55,6 +52,19 @@ Our workshop adheres to all principles and guidelines specified in the <a href="
 * Miriam Redi, Wikimedia Foundation
 * Gianluca Demartini, University of Queensland
 * Fatma Özcan, IBM Research
+
+### Program Committee
+* Guillaume Bouchard ((Facebook AI)
+* Jeff Dalton (University of Glasgow) 
+* Maarten de Rijke (University of Amsterdam) 
+* Djellel Difallah (Wikimedia Foundation) 
+* Ying Ding (University of Texas at Austin)
+* Ujwal Gadiraju (L3S Research Center)  
+* Lucie-Aimée Kaffee (University of Southampton and Wikidata)
+* Fabrizio Silvestri (Facebook AI)
+
+### Code of Conduct
+Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.
 
 ### Contact information 
 You can find us at <a href="https://kg-bias.github.io/">https://kg-bias.github.io</a> and contact us at <a href="mailto:kg-bias@googlegroups.com">kg-bias@googlegroups.com</a>.
