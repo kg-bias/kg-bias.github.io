@@ -55,11 +55,12 @@ We accept position papers, short papers, and full papers. Both ongoing and alrea
 
 ### Program Committee
 * Guillaume Bouchard ((Facebook AI)
-* Jeff Dalton (University of Glasgow) 
-* Maarten de Rijke (University of Amsterdam) 
-* Djellel Difallah (Wikimedia Foundation) 
+* Jeff Dalton (University of Glasgow)
+* Maarten de Rijke (University of Amsterdam)
+* Laura Dietz (University of New Hampshire)
+* Djellel Difallah (Wikimedia Foundation)
 * Ying Ding (University of Texas at Austin)
-* Ujwal Gadiraju (L3S Research Center)  
+* Ujwal Gadiraju (L3S Research Center)
 * Lucie-Aimée Kaffee (University of Southampton and Wikidata)
 * Fabrizio Silvestri (Facebook AI)
 
