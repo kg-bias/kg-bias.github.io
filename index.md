@@ -1,5 +1,6 @@
 ---
 layout: default
+title: KG-BIAS 2020 – Bias in Automatic Knowledge Graph Construction
 ---
 
 ### Overview
