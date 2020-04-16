@@ -41,7 +41,7 @@ Submissions should be made electronically through <a href="https://easychair.org
 We accept position papers, short papers, and full papers. Both ongoing and already published work is welcomed, and we will offer authors the option of having their paper included in the workshop proceedings. More details regarding the actual format and schedule of the workshop will be announced closer to the workshop date.
 
 ### Important Dates
-* Apr 27 - KG-BIAS submission deadline
+* May 4 - KG-BIAS submission deadline
 * May 18 – KG-BIAS notification
 * Jun 22-23 – AKBC conference @ UC Irvine, USA
 * Jun 24 – KG-BIAS workshop @ UC Irvine, USA
