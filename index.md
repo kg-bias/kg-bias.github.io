@@ -55,15 +55,20 @@ We accept position papers, short papers, and full papers. Both ongoing and alrea
 * Fatma Özcan, IBM Research
 
 ### Program Committee
-* Guillaume Bouchard ((Facebook AI)
-* Jeff Dalton (University of Glasgow)
-* Maarten de Rijke (University of Amsterdam)
+* Guillaume Bouchard (Facebook AI)
+* Soumen Chakrabarti (IIIT Bombay)
+* David Corney (Full Fact)
+* Jeff Dalton (University of Glasgow) 
+* Maarten de Rijke (University of Amsterdam) 
 * Laura Dietz (University of New Hampshire)
-* Djellel Difallah (Wikimedia Foundation)
+* Djellel Difallah (Wikimedia Foundation) 
 * Ying Ding (University of Texas at Austin)
-* Ujwal Gadiraju (L3S Research Center)
+* Ujwal Gadiraju (L3S Research Center)  
+* Faegheh Hasibi (Radboud University)
 * Lucie-Aimée Kaffee (University of Southampton and Wikidata)
+* Jeff Pan (University of Aberdeen)
 * Fabrizio Silvestri (Facebook AI)
+* Emine Yilmaz (University College London)
 
 ### Code of Conduct
 Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.
