@@ -64,6 +64,7 @@ We accept position papers, short papers, and full papers. Both ongoing and alrea
 * Djellel Difallah (Wikimedia Foundation) 
 * Ying Ding (University of Texas at Austin)
 * Ujwal Gadiraju (L3S Research Center)  
+* Jacopo Grazzini (Eurostat)
 * Faegheh Hasibi (Radboud University)
 * Lucie-Aimée Kaffee (University of Southampton and Wikidata)
 * Jeff Pan (University of Aberdeen)
