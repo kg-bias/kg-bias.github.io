@@ -41,15 +41,17 @@ Submissions should be made electronically through <a href="https://easychair.org
 We accept position papers, short papers, and full papers. Both ongoing and already published work is welcomed, and we will offer authors the option of having their paper included in the workshop proceedings. More details regarding the actual format and schedule of the workshop will be announced closer to the workshop date.
 
 ### Important Dates
+
 If you want your contribution to appear in proceedings:
-Submission deadline: ~~May 4~~ **May 11**
-Notification: May 18
+* Submission deadline: ~~May 4~~ **May 11**
+* Notification: May 18
 
 If you **do not** want your contribution to appear in proceedings:
-Submission deadline: June 1
-Author feedback: June 8
+* Submission deadline: June 1
+* Author feedback: June 8
 
 AKBC Conference: June 22-23
+
 KG-BIAS 2020 workshop: June 24 or 25
 
 All deadlines are 11:59 PM, in the AoE (Anywhere on Earth) timezone 
