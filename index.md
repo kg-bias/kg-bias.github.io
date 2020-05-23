@@ -11,6 +11,40 @@ Causes of bias include systematic errors due to selecting non-random items (sele
 
 This workshop – to be held for the first time at AKBC 2020 – addresses the questions: “how do such biases originate?”, “How do we identify them?”, and “What is the appropriate way to handle them, if at all?”.  This topic is as-yet unexplored and the goal of our workshop is to start a meaningful, long-lasting dialogue spanning researchers across a wide variety of backgrounds and communities. 
 
+### Keynote Speakers
+
+#### Jieyu Zhao, University of California - Los Angeles
+
+Natural Language Processing (NLP) plays an important role in many applications, including resume filtering, text analysis, and information retrieval. Despite the remarkable accuracy enabled by the advances in machine learning used in many applications, the technique may discover and generalize the societal biases implicit in the data. For example, an automatic resume filtering system may unconsciously select candidates based on their gender and race due to implicit associations between applicant names and job titles, causing the societal disparity discovered by researchers. Various laws and policies have been designed to ensure social equality and diversity. However, there is no such mechanism for a machine learning model for sensitive applications. My research analyzes the potential stereotypes in various machine learning models and develops computational approaches to enhance fairness in a wide range of NLP applications. The broader impact of my research aligns with one the concerns of machine learning community: how can we do AI for (social) good.
+
+_Jieyu is a PhD candidate in the department of Computer Science at UCLA advised by Prof. Kai-Wei Chang. Her research interest lies in fairness of ML/NLP models. Their previous paper was awarded the EMNLP Best Long Paper Award (2017). More detail can be found at https://jyzhao.net/._
+
+
+#### Jahna Otterbacher, Open University of Cyprus
+
+Mitigating bias in algorithmic processes and systems is a critical issue drawing increasing
+attention across research communities within the information and computer sciences. Given
+the complexity of the problem and the involvement of multiple stakeholders – not only
+developers, but also end-users and third parties – there is a need to understand the landscape
+of the sources of bias, as well as the solutions being proposed to address them. In this talk, I
+present insights from a recent survey of 250+ articles across four domains (machine learning,
+information retrieval, HCI, and RecSys), providing a “fish-eye view” of the field. I will also
+discuss the particular challenges of data biases, given the heterogeneity of data sources
+available for learning about our world, drawing on examples of my previous work on image
+data.
+
+_Jahna Otterbacher received her doctorate from the University of Michigan (Ann Arbor, USA),
+School of Information. She is currently Assistant Professor at the Open University of Cyprus
+(OUC), Faculty of Pure and Applied Sciences. Jahna coordinates the [Cyprus Center for
+Algorithmic Transparency (CyCAT)](http://www.cycat.io/) at the OUC, funded by the H2020 Widespread Twinning
+program. The CyCAT seeks to promote transparency and accountability in algorithmic systems
+that people routinely use, but that are rather opaque to them (e.g., search engines), through
+three types of interventions – data-, developer- and user-focused. In addition to her post at the
+OUC, Jahna holds a concurrent appointment as team leader of the Transparency in Algorithms
+Group at [RISE (Research centre on Interactive media, Smart systems and Emerging
+technologies)](https://www.rise.org.cy/en-gb/research/research-groups/), a new center of excellence and innovation in Nicosia, Cyprus, in collaboration
+with two international Advanced Partners, UCL and MPI._
+
 ### Topics
 Topics of interest include, but are not limited to:
 * Ethics, bias, and fairness
