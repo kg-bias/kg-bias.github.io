@@ -13,13 +13,6 @@ This workshop – to be held for the first time at AKBC 2020 – addresses the q
 
 ### Keynote Speakers
 
-#### Jieyu Zhao, University of California - Los Angeles
-
-Natural Language Processing (NLP) plays an important role in many applications, including resume filtering, text analysis, and information retrieval. Despite the remarkable accuracy enabled by the advances in machine learning used in many applications, the technique may discover and generalize the societal biases implicit in the data. For example, an automatic resume filtering system may unconsciously select candidates based on their gender and race due to implicit associations between applicant names and job titles, causing the societal disparity discovered by researchers. Various laws and policies have been designed to ensure social equality and diversity. However, there is no such mechanism for a machine learning model for sensitive applications. My research analyzes the potential stereotypes in various machine learning models and develops computational approaches to enhance fairness in a wide range of NLP applications. The broader impact of my research aligns with one the concerns of machine learning community: how can we do AI for (social) good.
-
-_Jieyu is a PhD candidate in the department of Computer Science at UCLA advised by Prof. Kai-Wei Chang. Her research interest lies in fairness of ML/NLP models. Their previous paper was awarded the EMNLP Best Long Paper Award (2017). More detail can be found at [her personal website](https://jyzhao.net/)._
-
-
 #### Jahna Otterbacher, Open University of Cyprus
 
 Mitigating bias in algorithmic processes and systems is a critical issue drawing increasing
@@ -44,6 +37,12 @@ OUC, Jahna holds a concurrent appointment as team leader of the Transparency in 
 Group at [RISE (Research centre on Interactive media, Smart systems and Emerging
 technologies)](https://www.rise.org.cy/en-gb/research/research-groups/), a new center of excellence and innovation in Nicosia, Cyprus, in collaboration
 with two international Advanced Partners, UCL and MPI._
+
+#### Jieyu Zhao, University of California - Los Angeles
+
+Natural Language Processing (NLP) plays an important role in many applications, including resume filtering, text analysis, and information retrieval. Despite the remarkable accuracy enabled by the advances in machine learning used in many applications, the technique may discover and generalize the societal biases implicit in the data. For example, an automatic resume filtering system may unconsciously select candidates based on their gender and race due to implicit associations between applicant names and job titles, causing the societal disparity discovered by researchers. Various laws and policies have been designed to ensure social equality and diversity. However, there is no such mechanism for a machine learning model for sensitive applications. My research analyzes the potential stereotypes in various machine learning models and develops computational approaches to enhance fairness in a wide range of NLP applications. The broader impact of my research aligns with one the concerns of machine learning community: how can we do AI for (social) good.
+
+_Jieyu is a PhD candidate in the department of Computer Science at UCLA advised by Prof. Kai-Wei Chang. Her research interest lies in fairness of ML/NLP models. Their previous paper was awarded the EMNLP Best Long Paper Award (2017). More detail can be found at [her personal website](https://jyzhao.net/)._
 
 ### Topics
 Topics of interest include, but are not limited to:
