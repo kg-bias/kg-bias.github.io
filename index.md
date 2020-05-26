@@ -13,16 +13,14 @@ Causes of bias include systematic errors due to selecting non-random items (sele
 This workshop – to be held for the first time at AKBC 2020 – addresses the questions: “how do such biases originate?”, “How do we identify them?”, and “What is the appropriate way to handle them, if at all?”.  This topic is as-yet unexplored and the goal of our workshop is to start a meaningful, long-lasting dialogue spanning researchers across a wide variety of backgrounds and communities. 
 
 - <a href="#keynote">Keynote speakers</a>
-  - <a href="#jahna">Jahna Otterbacher</a>
-  - <a href="#jieyu">Jieyu Zhao</a>
 - <a href="#topics">Topics</a>
-- <a href="submission">Submission instructions</a>
-- <a href="format">Workshop format</a>
-- <a href="dates">Key dates</a>
-- <a href="organizers">Organizing committee</a>
-- <a href="pc">Program committee</a>
-- <a href="coc">Code of conduct</a>
-- <a href="contact">Contact information</a>
+- <a href="#submission">Submission instructions</a>
+- <a href="#format">Workshop format</a>
+- <a href="#dates">Key dates</a>
+- <a href="#organizers">Organizing committee</a>
+- <a href="#pc">Program committee</a>
+- <a href="#coc">Code of conduct</a>
+- <a href="#contact">Contact information</a>
 
 ### <a id="keynote">Keynote Speakers</a>
 
