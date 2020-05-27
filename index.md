@@ -15,6 +15,7 @@ This workshop – to be held for the first time at AKBC 2020 – addresses the q
 - <a href="#keynote">Keynote speakers</a>
   - <a href="#jahna">Jahna Otterbacher, Open University of Cyprus</a>
   - <a href="#jieyu">Jieyu Zhao, University of California - Los Angeles</a>
+- <a href="#program">Program</a>
 - <a href="#topics">Topics</a>
 - <a href="#submission">Submission instructions</a>
 - <a href="#format">Workshop format</a>
@@ -59,6 +60,25 @@ Natural Language Processing (NLP) plays an important role in many applications, 
 
 _Jieyu is a PhD candidate in the department of Computer Science at UCLA advised by Prof. Kai-Wei Chang. Her research interest lies in fairness of ML/NLP models. Their previous paper was awarded the EMNLP Best Long Paper Award (2017). More detail can be found at [her personal website](https://jyzhao.net/)._
 
+### <a id="program">Program (tentative)</a>
+
+KG-BIAS will be held virtually on June 25, 2020. 
+Note that all times are in Pacific Time (PT).
+
+- 8.00-8.15:	Welcome
+- 8.15-9.00: Keynote + QA (Jahna Otterbacher)
+- 9.00-9.30: Invited paper + QA
+  - _Measuring social bias in knowledge graph embeddings_: Joseph Fisher, Dave Palfrey, Arpit Mittal and Christos Christodoulopoulos
+- 9.30-9.45: Break
+- 9.45-10.45: Paper presentations + QA
+  - _From Knowledge Graphs to Knowledge Practices: On the Need for Transparency and Explainability in Enterprise Knowledge Graph Applications_: Christine Wolf
+  - _Assessing Demographic Bias in Named Entity Recognition_: Shubhanshu Mishra, Sijun He and Luca Belli
+  - _Bias in Conversational Search: The Double-Edged Sword of the Personalized Knowledge Graph_: Emma Gerritse, Faegheh Hasibi and Arjen de Vries
+- 10.45-11: Break
+- 11.00-11.45: Keynote + QA (Jieyu Zhao)
+- 11.45-12.00: Break
+- 12.00-13.00: Panel and wrap-up
+
 ### <a id="topics">Topics</a>
 Topics of interest include, but are not limited to:
 * Ethics, bias, and fairness
@@ -98,9 +118,9 @@ If you **do not** want your contribution to appear in proceedings:
 * Submission deadline: June 1
 * Author feedback: June 8
 
-AKBC Conference: June 22-23
+AKBC Conference: June 22-24
 
-KG-BIAS 2020 workshop: June 24 or 25
+KG-BIAS 2020 workshop: June 25
 
 All deadlines are 11:59 PM, in the AoE (Anywhere on Earth) timezone 
 
