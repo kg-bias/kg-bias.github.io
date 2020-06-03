@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta content="KG-BIAS 2020" name="keywords">
+	<meta content="KG-BIAS 2020 Automatic Knowledge Graph Construction - A Workshop at AKBC 2020." name="description">
+	<meta name="author" content="">
+
+	<title>KG-BIAS Workshop 2020</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- Custom styles for this template -->
+	<link href="css/scrolling-nav.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Varela Round&display=swap" rel="stylesheet">
+ 
+	<link href="icon.png" rel="apple-touch-icon">
+	<link href="icon.png" rel="icon">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+	
+
+	<style>
+		body {
+				font-family: 'Varela Round', sans-serif;
+		}
+		h3 {
+			text-align:center;
+			font-size:100%;
+			color: rgb(100,220,220);
+			letter-spacing: .5em;
+		}
+		.nobul {
+			list-style-type: none;
+			margin-top: 20px;
+		} 
+		.glitch {
+			color: white;
+			font-size: 4em;
+			letter-spacing: .5em;
+		}
+		.header-bg {
+			margin-top: 60px;
+			background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+					url('https://images.unsplash.com/photo-1548264910-90c5562da993?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2848&q=80');
+		}
+		h1 {
+			text-shadow:1px 1px 0px #f0f, -1px -1px 0 #0ff;
+			font-size:100%;
+			text-align:center;
+			text-shadow:2px 3px 0px #f0f, -2px -2px 0 #0ff;
+			word-wrap: break-word;
+		}
+		.same-space {
+			height: 80px;
+		}
+		.navbar-dark .navbar-nav .nav-link {
+				color: rgba(255,255,255) !important;
+		}
+		.infobox {
+			border: 3px dashed black;
+			padding: 15px;
+		}
+		</style>	
+</head>
+
+<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top"><!--img src="assets/kg-bias_logo_neutral.png" style="height:40px;"-->KG-BIAS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#invitedspeakers">Invited Speakers</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#schedule">Program</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#callforpapers">Call for Papers</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="bg-primary text-white header-bg">
+		<div class="container text-center">
+			<h2 class="glitch">KG-BIAS</h2>
+			<h3>Bias in Automatic Knowledge Graph Construction - <br/>A Workshop at AKBC 2020</h3>
+			<!--h1 class="glitch">KG-BIAS</h1>
+			<h3 class="sub">Bias in Automatic Knowledge Graph Construction - <br/>A Workshop at AKBC 2020</h3-->
+			<!--div class="row text-center">
+				<h1>WebHosting</h1>
+				<p>Host your WebSite now!!</p>
+				<p><a class="btn btn-primary btn-lg" href="precos" role="button">Learn more</a></p>
+			</div-->
+		</div>
+	</header>
+
+	<section id="overview">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2>Overview</h2>
+					<p class="lead">Knowledge Graphs (KGs) store human knowledge about the world in structured format, e.g., triples of facts or graphs of entities and relations, to be processed by AI systems. In the past decade, extensive research efforts have gone into constructing and utilizing knowledge graphs for tasks in natural language processing, information retrieval, recommender systems, and more. Once constructed, knowledge graphs are often considered as “gold standard” data sources that safeguard the correctness of other systems. Because the biases inherent to KGs may become magnified and spread through such systems, it is crucial that we acknowledge and address various types of bias in knowledge graph construction.</p>
+					<p class="lead">Such biases may originate in the very design of the KG, in the source data from which it is created (semi-)automatically, and in the algorithms used to sample, aggregate, and process that data. Causes of bias include systematic errors due to selecting non-random items (selection bias), misremembering certain events (recall bias), and interpreting facts in a way that affirms individuals’ preconceptions (confirmation bias). Biases typically appear subliminally in expressions, utterances, and text in general and can carry over into downstream representations such as embeddings and knowledge graphs.</p>
+					<p class="lead">This workshop – to be held for the first time at AKBC 2020 – addresses the questions: “how do such biases originate?”, “How do we identify them?”, and “What is the appropriate way to handle them, if at all?”. This topic is as-yet unexplored and the goal of our workshop is to start a meaningful, long-lasting dialogue spanning researchers across a wide variety of backgrounds and communities.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="invitedspeakers" class="section md-padding bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2>Invited Speakers</h2>
+				</div>
+			</div>
+			<div class="col-lg-8 row mx-auto">
+				<div class="col-sm-6">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="assets/Jieyu-Zhao.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://jyzhao.net/" target="_blank"><i
+											class="fa fa-home"></i></a>
+									<a href="https://twitter.com/jieyuzhao11?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Jieyu Zhao</h3>
+							<span>University of California – Los Angeles</span>
+							<br>
+							<p>
+								<i>
+									TBD
+							  </i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-sm-6">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="assets/Jahna-Otterbacher.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="http://www.cycat.io/team/jahna-otterbacher/" target="_blank"><i
+											class="fa fa-home"></i></a>
+									<a href="https://twitter.com/jahnao?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Jahna Otterbacher</h3>
+							<span>Open University of Cyprus</span>
+							<p>
+								<i>
+									Bias in Data and Algorithmic Systems: A "Fish-Eye View" of Problems, Solutions and Stakeholders.
+								</i>
+							</p>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="schedule">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2>Program (tentative)</h2>
+						<p class="lead">KG-BIAS will be held virtually on June 25, 2020. All times are in <a href="https://greenwichmeantime.com/time-zone/usa/pacific-time/">Pacific Time</a>.</p>
+			<ul class="lead">
+				<li class="nobul">8.00-8.15: Welcome</li>
+				<li class="nobul">8.15-9.00: Keynote + QA
+					<ul>
+					<li><b>Jahna Otterbacher</b>. <em>Bias in Data and Algorithmic Systems: A "Fish-Eye View" of Problems, Solutions and Stakeholders.</em>
+						<p>
+							Mitigating bias in algorithmic processes and systems is a critical issue drawing increasing
+attention across research communities within the information and computer sciences. Given
+the complexity of the problem and the involvement of multiple stakeholders – not only
+developers, but also end-users and third parties – there is a need to understand the landscape
+of the sources of bias, as well as the solutions being proposed to address them. In this talk, I
+present insights from a recent survey of 250+ articles across four domains (machine learning,
+information retrieval, HCI, and RecSys), providing a “fish-eye view” of the field. I will also
+discuss the particular challenges of data biases, given the heterogeneity of data sources
+available for learning about our world, drawing on examples of my previous work on image
+data.
+						</p>
+					</li>
+				</ul>
+				</li>
+				<li class="nobul">9.00-9.30: Invited paper + QA
+					<ul>
+						<li><b>Joseph Fisher, Dave Palfrey, Arpit Mittal and Christos Christodoulopoulos</b>. <em>Measuring social bias in knowledge graph embeddings.</em></li>
+					</ul>
+				</li>
+				<li class="nobul">9.30-9.45: Break</li>
+				<li class="nobul">9.45-10.45: Paper presentations + QA
+					<ul>
+						<li><b>Christine Wolf</b>. <em>From Knowledge Graphs to Knowledge Practices: On the Need for Transparency and Explainability in Enterprise Knowledge Graph Applications.</em></li>
+						<li><b>Shubhanshu Mishra, Sijun He and Luca Belli</b>. <em>Assessing Demographic Bias in Named Entity Recognition.</em></li>
+						<li><b>Emma Gerritse, Faegheh Hasibi and Arjen P. de Vries</b>. <em>Bias in Conversational Search: The Double-Edged Sword of the Personalized Knowledge Graph.</em></li>
+					</ul>
+				</li>
+				<li class="nobul">10.45-11: Break</li>
+				<li class="nobul">11.00-11.45: Keynote + QA
+					<ul>
+					<b>Jieyu Zhao</b>. <em>TBD</em>
+					<p>
+						Natural Language Processing (NLP) plays an important role in many applications, including resume filtering, text analysis, and information retrieval. Despite the remarkable accuracy enabled by the advances in machine learning used in many applications, the technique may discover and generalize the societal biases implicit in the data. For example, an automatic resume filtering system may unconsciously select candidates based on their gender and race due to implicit associations between applicant names and job titles, causing the societal disparity discovered by researchers. Various laws and policies have been designed to ensure social equality and diversity. However, there is no such mechanism for a machine learning model for sensitive applications. My research analyzes the potential stereotypes in various machine learning models and develops computational approaches to enhance fairness in a wide range of NLP applications. The broader impact of my research aligns with one the concerns of machine learning community: how can we do AI for (social) good.
+					</p>
+					</ul>
+				</li>
+				<li class="nobul">11.45-12.00: Break</li>
+				<li class="nobul">12.00-13.00: Panel and wrap-up</li>
+			</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="callforpapers" class="bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2>Call for Papers</h2>
+
+					<p class="lead">The KG-BIAS workshop touches on many facets including common biases and how they surface in KGs, biases in the source data that is used to create KGs, methods for measuring or remediating bias in KGs, but also identifying other biases such as how and which languages are represented in automatically constructed KGs or how personal KGs might incur inherent biases. The goal of this workshop is to uncover how various types of biases are introduced into KGs, investigate how to measure, and propose methods to remediate them.</p>
+					<p class="lead">We welcome position papers, short papers, and full papers. Both ongoing and already published work is welcomed, and we will offer authors the option of having their paper included in the workshop proceedings. </p>
+					<p class="lead">KG-BIAS topics of interest include, but are not limited to the following.</p>
+
+		<ul class="lead">
+			<li>Ethics, bias, and fairness</li>
+			<li>Qualitatively and quantitatively defining types of bias
+				<ul>
+					<li>Implicit or explicit human bias reflected in data people generate</li>
+					<li>Algorithmic bias represented in learned models or rules</li>
+					<li>Taxonomies and categorizations of different biases</li>
+				</ul>
+			</li>
+			<li>Empirically observing biases
+				<ul>
+					<li>Measuring diversity of opinions</li>
+					<li>Language, gender, geography, or interest bias</li>
+					<li>Implications of existing bias to human end-users</li>
+					<li>Benchmarks and datasets for bias in KGs</li>
+				</ul>
+			</li>
+			<li>Measuring or remediating bias
+				<ul>
+					<li>De-biased KG completion methods</li>
+					<li>Algorithms for making inferences interpretable and explainable</li>
+					<li>De-biasing or post-processing algorithms</li>
+					<li>Creating user awareness on cognitive biases</li>
+					<li>Ethics of data collection for bias management</li>
+					<li>Diversification of information sources</li>
+					<li>Provenance and traceability</li>
+				</ul>
+			</li>
+		</ul>
+					
+					<h4>Submission instructions</h4>
+						<p class="lead">
+							Submission files should not exceed 8 pages with additional pages allowed for references. Reviews are double-blind; author names and affiliations must be removed. All submissions must be written in English and submitted as PDF files formatted using the <a href="https://www.acm.org/publications/proceedings-template">sigconf template</a>.
+						</p>
+						<p class="lead">
+							Submissions should be made electronically through <a href="https://easychair.org/conferences/?conf=kgbias2020">Easychair</a>.
+						</p>
+
+						<h4>Important Dates</h4>
+			<p class="lead">If you want your contribution to appear in proceedings:</p>
+			<ul class="lead">
+				<li>Submission deadline: <del>May 4</del> <strong>May 11</strong></li>
+				<li>Notification: May 18</li>
+			</ul>
+
+			<p class="lead">If you <strong>do not</strong> want your contribution to appear in proceedings:</p>
+			<ul class="lead">
+				<li>Submission deadline: June 1</li>
+				<li>Author feedback: June 8</li>
+			</ul>
+
+			<h4>Code of Conduct</h4>
+			<p class="lead">Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="organizers">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<h2 class="mb-5">Organizers</h2>
+					<div class="row">
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Edgar-Meij.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Edgar Meij</span>
+										<small class="h6 text-muted">Bloomberg</small>
+									</h5>
+									<div class="mt-3">
+										<a href="http://edgar.meij.pro/" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-user"></i>
+										</a>
+										<a href="http://twitter.com/edgarmeij" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Tara-Safavi.png" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Tara Safavi</span>
+										<small class="h6 text-muted">University of Michigan</small>
+									</h5>
+									<div class="mt-3">
+										<a href="http://twitter.com/tararootcake" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-twitter"></i>
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Chenyan-Xiong.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Chenyan Xiong</span>
+										<small class="h6 text-muted">Microsoft Research AI</small>
+									</h5>
+									<div class="mt-3">
+										<a href="http://twitter.com/XiongChenyan" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-twitter"></i>
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Miriam-Redi.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Miriam Redi</span>
+										<small class="h6 text-muted">Wikimedia Foundation</small>
+									</h5>
+									<div class="mt-3">
+										<a href="http://twitter.com/mad_astronaut" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-twitter"></i>
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Gianluca-Demartini.png" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Gianluca Demartini</span>
+										<small class="h6 text-muted">University of Queensland</small>
+									</h5>
+									<div class="mt-3">
+										<a href="http://twitter.com/eglu81" class="btn btn-outline-info btn-icon-only rounded-circle">
+											<i class="fa fa-twitter"></i>
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<div class="px-4 text-center">
+								<img src="assets/Fatma-Özcan.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;" alt="image">
+								<div class="pt-4 text-center">
+									<h5 class="title same-space">
+										<span class="d-block mb-1">Fatma Özcan</span>
+										<small class="h6 text-muted">IBM Research</small>
+									</h5>
+									<div class="mt-3">
+
+										
+									</div>
+								</div>
+							</div>
+						</div>            
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section id="callforpapers" class="bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+		<h2 id="program-committee"><a id="pc">Program Committee</a></h2>
+		<ul class="lead">
+			<li>Guillaume Bouchard (Facebook AI)</li>
+			<li>Soumen Chakrabarti (IIIT Bombay)</li>
+			<li>David Corney (Full Fact)</li>
+			<li>Jeff Dalton (University of Glasgow)</li>
+			<li>Maarten de Rijke (University of Amsterdam)</li>
+			<li>Laura Dietz (University of New Hampshire)</li>
+			<li>Djellel Difallah (Wikimedia Foundation)</li>
+			<li>Ying Ding (University of Texas at Austin)</li>
+			<li>Ujwal Gadiraju (L3S Research Center)</li>
+			<li>Jacopo Grazzini (Eurostat)</li>
+			<li>Faegheh Hasibi (Radboud University)</li>
+			<li>Lucie-Aimée Kaffee (University of Southampton and Wikidata)</li>
+			<li>Jeff Pan (University of Aberdeen)</li>
+			<li>Fabrizio Silvestri (Facebook AI)</li>
+			<li>Emine Yilmaz (University College London)</li>
+		</ul>
+			<h4>Code of Conduct</h4>
+			<p class="lead">Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="py-5 bg-primary">
+		<div class="container">
+			<p class="m-0 text-center text-white">
+				You can contact us at <a href="mailto:kg-bias@googlegroups.com">kg-bias@googlegroups.com</a>.
+			</p>
+		</div>
+		<!-- /.container -->
+	</footer>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-157009293-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</body>
+
+</html>
