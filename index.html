@@ -126,14 +126,46 @@
 	<section id="overview">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 mx-auto">
+				<!--div class="col-lg-8 mx-auto">
 					<p><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Registration is open! See <a href="https://www.akbc.ws/2020/">here</a> for more information.</p>
-				</div>
+				</div-->
 				<div class="col-lg-8 mx-auto">
 					<h2>Overview</h2>
 					<p class="lead">Knowledge Graphs (KGs) store human knowledge about the world in structured format, e.g., triples of facts or graphs of entities and relations, to be processed by AI systems. In the past decade, extensive research efforts have gone into constructing and utilizing knowledge graphs for tasks in natural language processing, information retrieval, recommender systems, and more. Once constructed, knowledge graphs are often considered as “gold standard” data sources that safeguard the correctness of other systems. Because the biases inherent to KGs may become magnified and spread through such systems, it is crucial that we acknowledge and address various types of bias in knowledge graph construction.</p>
 					<p class="lead">Biases may originate in the very design of the KG, in the source data from which it is created (semi-)automatically, and in the algorithms used to sample, aggregate, and process that data. Causes of bias include systematic errors due to selecting non-random items (selection bias), misremembering certain events (recall bias), and interpreting facts in a way that affirms individuals’ preconceptions (confirmation bias). Biases typically appear subliminally in expressions, utterances, and text in general and can carry over into downstream representations such as embeddings and knowledge graphs.</p>
 					<p class="lead">This workshop – to be held for the first time at AKBC 2020 – addresses the questions: “how do such biases originate?”, “How do we identify them?”, and “What is the appropriate way to handle them, if at all?”. This topic is as-yet unexplored and the goal of our workshop is to start a meaningful, long-lasting dialogue spanning researchers across a wide variety of backgrounds and communities.</p>
+
+					<p class="lead">KG-BIAS topics of interest include, but are not limited to the following.</p>
+
+					<ul class="lead">
+						<li>Ethics, bias, and fairness</li>
+						<li>Qualitatively and quantitatively defining types of bias
+							<ul>
+								<li>Implicit or explicit human bias reflected in data people generate</li>
+								<li>Algorithmic bias represented in learned models or rules</li>
+								<li>Taxonomies and categorizations of different biases</li>
+							</ul>
+						</li>
+						<li>Empirically observing biases
+							<ul>
+								<li>Measuring diversity of opinions</li>
+								<li>Language, gender, geography, or interest bias</li>
+								<li>Implications of existing bias to human end-users</li>
+								<li>Benchmarks and datasets for bias in KGs</li>
+							</ul>
+						</li>
+						<li>Measuring or remediating bias
+							<ul>
+								<li>De-biased KG completion methods</li>
+								<li>Algorithms for making inferences interpretable and explainable</li>
+								<li>De-biasing or post-processing algorithms</li>
+								<li>Creating user awareness on cognitive biases</li>
+								<li>Ethics of data collection for bias management</li>
+								<li>Diversification of information sources</li>
+								<li>Provenance and traceability</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -205,7 +237,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
-					<h2>Program (tentative)</h2>
+					<h2>Program</h2>
 						<p class="lead">KG-BIAS will be held virtually on June 25, 2020. All times are in <a href="https://greenwichmeantime.com/time-zone/usa/pacific-time/">Pacific Time</a>.</p>
 			<ul class="lead">
 				<li class="nobul">8.00-8.15: Welcome</li>
@@ -235,8 +267,8 @@ data.
 				<li class="nobul">9.30-9.45: Break</li>
 				<li class="nobul">9.45-10.45: Paper presentations + QA
 					<ul>
-						<li><b>Christine Wolf</b>. <em><a href="./Wolf_-_KG_to_Knowledge_Practices.pdf">From Knowledge Graphs to Knowledge Practices: On the Need for Transparency and Explainability in Enterprise Knowledge Graph Applications.</a></em></li>
-						<li><b>Shubhanshu Mishra, Sijun He and Luca Belli</b>. <em><a href="./NER_Bias_KG_Bias.pdf">Assessing Demographic Bias in Named Entity Recognition.</a></em></li>
+						<li><b>Christine Wolf</b>. <em><a href="./Wolf_-_KG_to_Knowledge_Practices.pdf"><i class="fa fa-file-pdf-o"></i> From Knowledge Graphs to Knowledge Practices: On the Need for Transparency and Explainability in Enterprise Knowledge Graph Applications.</a></em></li>
+						<li><b>Shubhanshu Mishra, Sijun He and Luca Belli</b>. <em><a href="./NER_Bias_KG_Bias.pdf"><i class="fa fa-file-pdf-o"></i> Assessing Demographic Bias in Named Entity Recognition.</a></em></li>
 						<li><b>Emma Gerritse, Faegheh Hasibi and Arjen P. de Vries</b>. <em>Bias in Conversational Search: The Double-Edged Sword of the Personalized Knowledge Graph.</em></li>
 					</ul>
 				</li>
@@ -257,46 +289,19 @@ data.
 		</div>
 	</section>
 
+<!--
 	<section id="callforpapers" class="bg-light">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
+
+
+
 					<h2>Call for Papers</h2>
 
 					<p class="lead">The KG-BIAS workshop touches on many facets including common biases and how they surface in KGs, biases in the source data that is used to create KGs, methods for measuring or remediating bias in KGs, but also identifying other biases such as how and which languages are represented in automatically constructed KGs or how personal KGs might incur inherent biases. The goal of this workshop is to uncover how various types of biases are introduced into KGs, investigate how to measure, and propose methods to remediate them.</p>
 					<p class="lead">We welcome position papers, short papers, and full papers. Both ongoing and already published work is welcomed, and we will offer authors the option of having their paper included in the workshop proceedings. </p>
-					<p class="lead">KG-BIAS topics of interest include, but are not limited to the following.</p>
 
-		<ul class="lead">
-			<li>Ethics, bias, and fairness</li>
-			<li>Qualitatively and quantitatively defining types of bias
-				<ul>
-					<li>Implicit or explicit human bias reflected in data people generate</li>
-					<li>Algorithmic bias represented in learned models or rules</li>
-					<li>Taxonomies and categorizations of different biases</li>
-				</ul>
-			</li>
-			<li>Empirically observing biases
-				<ul>
-					<li>Measuring diversity of opinions</li>
-					<li>Language, gender, geography, or interest bias</li>
-					<li>Implications of existing bias to human end-users</li>
-					<li>Benchmarks and datasets for bias in KGs</li>
-				</ul>
-			</li>
-			<li>Measuring or remediating bias
-				<ul>
-					<li>De-biased KG completion methods</li>
-					<li>Algorithms for making inferences interpretable and explainable</li>
-					<li>De-biasing or post-processing algorithms</li>
-					<li>Creating user awareness on cognitive biases</li>
-					<li>Ethics of data collection for bias management</li>
-					<li>Diversification of information sources</li>
-					<li>Provenance and traceability</li>
-				</ul>
-			</li>
-		</ul>
-					
 					<h4>Submission instructions</h4>
 						<p class="lead">
 							Submission files should not exceed 8 pages with additional pages allowed for references. Reviews are double-blind; author names and affiliations must be removed. All submissions must be written in English and submitted as PDF files formatted using the <a href="https://www.acm.org/publications/proceedings-template">sigconf template</a>.
@@ -318,15 +323,19 @@ data.
 				<li>Author feedback: June 8</li>
 			</ul>
 
+
+
 			<h4>Code of Conduct</h4>
 			<p class="lead">Our workshop adheres to all principles and guidelines specified in the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics and Professional Conduct</a>.</p>
+
+
 				</div>
 			</div>
 		</div>
 	</section>
+-->
 
-
-	<section id="organizers">
+	<section id="organizers" class="bg-light">>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
@@ -440,7 +449,7 @@ data.
 		</div>
 	</section>
 
-<section id="callforpapers" class="bg-light">
+<section id="callforpapers">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
